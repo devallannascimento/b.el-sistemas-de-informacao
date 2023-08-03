@@ -1,2 +1,2 @@
 // meu primeiro programa JS
-alert("Ola, mundo!");
+console.log("Ola, mundo!");
