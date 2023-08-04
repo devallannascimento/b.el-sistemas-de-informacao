@@ -26,3 +26,5 @@ function primeiraEtapa(acertos_na_prova,
         return "Reprovado";
     }
 }
+
+console.log(primeiraEtapa(20,2))
