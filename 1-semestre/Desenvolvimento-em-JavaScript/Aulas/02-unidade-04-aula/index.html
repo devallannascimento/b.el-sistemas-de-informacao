@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>API</title>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <!-- Busca -->
+
+    <input type="text" placeholder="Digite o seu CEP aqui" id="buscar_cep">
+
+    <input type="button" onclick="buscarCEP()" value="Buscar">
+
+    <!-- Local onde escreveremos o resultado -->
+    <p>
+        <strong>CEP: </strong>
+        <span id="cep"></span>
+    </p>
+    <p>
+        <strong>Logradouro: </strong>
+        <span id="logradouro"></span>
+    </p>
+    <p>
+        <strong>Bairro: </strong>
+        <span id="bairro"></span>
+    </p>
+    <p>
+        <strong>Cidade: </strong>
+        <span id="cidade"></span>
+    </p>
+    <p>
+        <strong>Estado</strong>
+        <span id="estado"></span>
+    </p>
+
+    <!-- Chamada para o script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
