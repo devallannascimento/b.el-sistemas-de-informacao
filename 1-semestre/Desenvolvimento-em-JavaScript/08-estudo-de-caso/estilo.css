@@ -1,0 +1,9 @@
+*{ margin: 0; }
+h1{ text-align: center; }
+ 
+#destino-1, #destino-2, #destino-3, #destino-4{
+   width: 300px;
+   height: 300px;
+   margin: 5px;
+   float:left;
+}
